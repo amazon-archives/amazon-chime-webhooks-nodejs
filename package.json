@@ -1,0 +1,30 @@
+{
+  "name": "chime",
+  "version": "1.0.0",
+  "author": "Michael Marti <mcmarti@amazon.com>",
+  "description": "Send Amazon Chime messages using webhooks.",
+  "license": "Apache-2.0",
+  "engines": {
+    "node": ">= 10.x"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/awslabs/amazon-chime-webhooks-nodejs.git"
+  },
+  "main": "src/index.js",
+  "types": "src/index.d.ts",
+  "files": [
+    "src/index.d.ts",
+    "src/lib/Chime.js"
+  ],
+  "scripts": {
+    "format": "prettier --write 'src/**' package.json README.md",
+    "pretest": "prettier -c 'src/**' package.json README.md"
+  },
+  "devDependencies": {
+    "prettier": "^2.0.2"
+  },
+  "prettier": {
+    "singleQuote": true
+  }
+}
