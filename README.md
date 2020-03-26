@@ -32,11 +32,11 @@ const Chime = require('chime');
 
 ## Class: Chime
 
-##### Added in: v1.0.0
+<sup>Added in: v1.0.0</sup>
 
 ### new Chime(url[, options])
 
-##### Added in: v1.0.0
+<sup>Added in: v1.0.0</sup>
 
 - `url` `<string>` - Webhook URL
 - `options` `<object>` Overridden by `room.sendMessage()` options.
@@ -49,7 +49,7 @@ const room = new Chime('<WEBHOOK_URL>');
 
 ### Chime.sendMessage(message, url[, options])
 
-##### Added in: v1.0.0
+<sup>Added in: v1.0.0</sup>
 
 - `message` `<string>`
 - `url` `<string>` - Webhook URL
@@ -74,7 +74,7 @@ console.log(result);
 
 ### room.sendMessage(message[, options])
 
-##### Added in: v1.0.0
+<sup>Added in: v1.0.0</sup>
 
 - `message` `<string>`
 - `options` `<object>`
