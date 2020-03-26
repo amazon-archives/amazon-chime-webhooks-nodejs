@@ -1,18 +1,6 @@
-### Table of Contents
-
-- [Amazon Chime](#amazon-chime)
-  - [Class: Chime](#class-chime)
-    - [new Chime(url[, options])](#new-chimeurl-options)
-    - [Chime.sendMessage(message, url[, options])](#chimesendmessagemessage-url-options)
-    - [room.sendMessage(message[, options])](#roomsendmessagemessage-options)
-  - [Contributions](#contributions)
-  - [License](#license)
-
----
-
 # Amazon Chime
 
-> Send Amazon Chime messages using webhooks.
+Send Amazon Chime messages using webhooks.
 
 - [Amazon Chime](https://aws.amazon.com/chime)
 - [Webhooks for Amazon Chime](https://docs.aws.amazon.com/chime/latest/dg/webhooks.html)
