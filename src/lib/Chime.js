@@ -16,10 +16,10 @@ const sendMessage = (message, url, { markdown = true }) =>
             buf = JSON.parse(buf);
 
             if (res.statusCode !== 200) {
-              reject(new Error(buf.Message || buf.message));
-            } else {
-              resolve({ messageId: buf.MessageId, roomId: buf.RoomId });
+              return reject(new Error(buf.Message || buf.message));
             }
+
+            resolve({ messageId: buf.MessageId, roomId: buf.RoomId });
           });
       })
       .on('error', reject)

@@ -1,6 +1,6 @@
 {
   "name": "chime",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "author": "Michael Marti <mcmarti@amazon.com>",
   "description": "Send Amazon Chime messages using webhooks.",
   "license": "Apache-2.0",
@@ -22,7 +22,7 @@
     "pretest": "prettier -c 'src/**' package.json README.md"
   },
   "devDependencies": {
-    "prettier": "^2.0.4"
+    "prettier": "^2.0.5"
   },
   "prettier": {
     "singleQuote": true
